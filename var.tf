@@ -3,7 +3,7 @@ variable "REGION" {
 }
 
 variable "USER_1" {
-  
+default = "Abels"
 }
 
 /*
