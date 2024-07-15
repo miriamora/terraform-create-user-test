@@ -5,3 +5,9 @@ variable "REGION" {
 variable "USER_1" {
   
 }
+
+/*
+variable "USER_2" {
+  
+}
+*/
