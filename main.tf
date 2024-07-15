@@ -21,3 +21,8 @@ resource "aws_iam_user" "terraform-user" {
   name = "terraform-user"
   
 }
+
+resource "aws_iam_user" "terraform-user-2" {
+  name = "terraform-user-2"
+  
+}
