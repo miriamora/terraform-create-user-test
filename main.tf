@@ -9,7 +9,7 @@ terraform {
 
 provider "aws" {
   
-  region = "us-east-1"
+  region = var.REGION
 }
 
 resource "aws_iam_group" "terraform-grp" {
@@ -18,7 +18,7 @@ resource "aws_iam_group" "terraform-grp" {
 }
 
 resource "aws_iam_user" "terraform-user" {
-  name = "terraform-user"
+  name = var.USER_1
   
 }
 
